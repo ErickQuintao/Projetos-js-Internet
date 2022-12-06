@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+	background: white;
+	border: 2px solid black;
+	padding: 10px;
+}
+.container{
+	display:grid;
+	grid-template-columns: repeat(3, 300px);
+	grid-auto-rows: 160px;
+	align-items: stretch;
+	grid-template-areas: 
+	'box-1 box-1 box-1'
+	'box-2 box-2 box-3'
+	'box-2 box-2 box-3'
+	'box-4 box-4 box-4' ;
+}
+.box-1{
+	grid-area: box-1;
+}
+.box-2{
+	grid-area: box-2;
+}
+.box-3{
+	grid-area: box-3;
+}
+.box-4{
+	grid-area: box-4;
+}

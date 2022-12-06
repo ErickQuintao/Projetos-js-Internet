@@ -1,0 +1,28 @@
+
+.contato{
+	color: white;
+}
+.first{
+	position: relative;
+	bottom: 200px;
+	left: 100px;
+	align-items: center;
+	width: black;
+}
+img{
+	position: relative;
+	right: 5px;
+	left: 2px;
+	width: 1405px;
+	height: 300px;
+}
+p{
+	font-size: 20px;
+}
+#img{
+	display: flex;
+	margin: 20px;
+	position: relative;
+	width: 1200px;
+	height: 400px;
+}
