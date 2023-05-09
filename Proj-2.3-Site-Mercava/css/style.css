@@ -545,34 +545,33 @@ flex-direction: row;
 	width: 20px;
 	height: 20px;
 }
-
 .fim-one{
 	position: relative;
 	width: 300px;
 	height: 100px;
 	left: 55%;
-	bottom: 365px;
+	bottom: 450px;
 }
 .fim-two{
 	position: relative;
 	width: 300px;
 	height: 100px;
 	left: 55%;
-	bottom: 375px;
+	bottom: 450px;
 }
 .fim-three{
 	position: relative;
 	width: 300px;
 	height: 100px;
 	left: 55%;
-	bottom: 355px;
+	bottom: 420px;
 }
 .fim-four{
 	position: relative;
 	width: 300px;
 	height: 100px;
 	left: 55%;
-	bottom: 365px;
+	bottom: 420px;
 }
 .titleS2{
 	position: relative;
@@ -580,7 +579,7 @@ flex-direction: row;
 	color: white;
 	font: 20px;
 	left: 67%;
-	bottom:  365px;
+	bottom:  467px;
 	font-size: 25px;
 	
 }
@@ -613,4 +612,45 @@ flex-direction: row;
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
 	
+}
+.icon-fim{
+	position: relative;
+	max-width: 32px;
+	max-height: 32px;
+}
+.fac{
+	left: 40px;
+	background: white;
+	border: none;
+	border-radius: 100px;
+	
+}
+.ins{
+	left: 100px;
+	bottom: 32px;
+	background-color:white;
+	border-radius: 100px;
+	
+}
+.you{
+
+	left: 160px;
+	bottom: 65px;
+	background-color: white;
+	border-radius: 50%;
+}
+.fac:hover{
+	background-color: blue;
+	
+}
+.ins:hover{
+	background-color: blue;
+}
+.you:hover{
+	background-color: red;
+}
+.iconS{
+	position: relative;
+	width: 40px;
+	height: 40px;
 }
