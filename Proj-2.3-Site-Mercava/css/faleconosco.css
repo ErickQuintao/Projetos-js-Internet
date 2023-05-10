@@ -18,6 +18,62 @@ body{
 	background: red;
 	bottom:72%;
 }
+#pd{
+	position: relative;
+	bottom:8px;
+	color: white;
+	margin-left: 20px;
+	font-weight: 700;
+	font-family: "Segoe UI";
+}
+.icon-fac{
+	position: absolute;
+	width: 27px;
+	height: 27px;
+	left: 89% ;
+	bottom: 34px;
+	border: white 2px solid;
+	border-radius: 15px;
+	background: white;
+}
+.icon-fac:hover{
+	background: blue;
+	width: 28px;
+	height: 28px;
+}
+.icon-you{
+	position: absolute;
+	width: 27px;
+	height: 27px;
+	left: 92% ;
+	bottom: 34px;
+	border: white 2px solid;
+	border-radius: 15px;
+	background: white;
+}
+.icon-you:hover{
+ background: red;
+ width: 28px;
+ height: 28px;
+}
+.icon-ins{
+	position: absolute;
+	width: 27px;
+	height: 27px;
+	left: 95% ;
+	bottom: 35px;
+	border: white 2px solid;
+	border-radius: 15px;
+	background: white;
+}
+.icon-ins:hover{
+  background: blue;
+  width: 28px;
+  height: 28px;
+ 
+
+}
+
 /* header */
 #header{
 
@@ -50,6 +106,7 @@ body{
 	font-size: 15px;
 	top: 30px;
 	color: black;
+	font-family: "Segoe UI"
 }
 #Hprod:hover{
     color: black;
@@ -61,6 +118,7 @@ body{
 	font-size: 15px;
 	top: 30px;
 	color: gray;
+	font-family: "Segoe UI"
 }
 #Home{
 	position: relative;
@@ -69,6 +127,7 @@ body{
 	font-size: 15px;
 	top: 30px;
 	color: gray;
+	font-family: "Segoe UI"
 }
 #Home:hover{
 color: black;
@@ -111,9 +170,10 @@ color: black;
 .title-reclame{
     position: relative;
     font-size: 30px ;
-    font-weight: 900;
+    font-weight: 700;
     left: 90px;
     top: 137px;
+	font-family: "Segoe UI"
 }
 .ipt-nome{
     position: relative;
@@ -179,7 +239,8 @@ color: black;
 	background: black;
 	height: 480px;
 	position: relative;
-	top: 270px;
+	top: 275px;
+	margin-top: 3px;
 }
 .titleS{
 	color: white;
@@ -194,9 +255,7 @@ color: black;
 	background: black;
 	
 }
-.of-btn {
-	top: -25px;
-}
+
 .imgs-fim{
 	width: 60px;
 	height: 60px;
@@ -210,7 +269,7 @@ color: black;
 	width: 300px;
 	height: 100px;
 	left: 55%;
-	bottom: 450px;
+	bottom: 470px;
 }
 .fim-two{
 	position: relative;
@@ -224,14 +283,66 @@ color: black;
 	width: 300px;
 	height: 100px;
 	left: 55%;
-	bottom: 420px;
+	bottom: 430px;
 }
 .fim-four{
 	position: relative;
 	width: 300px;
 	height: 100px;
 	left: 55%;
-	bottom: 420px;
+	bottom: 410px;
+}
+.gvtnine{
+	position: absolute;
+	left: 90px;
+	color: white;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	text-decoration: none;
+}
+.gvtnine:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+.gvtseven{
+	position: absolute;
+	left: 90px;
+	color: white;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	text-decoration: none;
+}
+.gvtseven:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+.gvtthree{
+  position: absolute;
+	left: 90px;
+	color: white;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	text-decoration: none;
+}
+.gvtthree:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+.of-btn {
+	position: absolute;
+	left: 90px;
+	color: white;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	text-decoration: none;
+}
+.of-btn:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
 }
 .titleS2{
 	position: relative;
@@ -239,9 +350,9 @@ color: black;
 	color: white;
 	font: 20px;
 	left: 67%;
-	bottom:  467px;
+	bottom:  480px;
 	font-size: 25px;
-	
+	font-family: "Segoe UI"
 }
 .titleS1{
 	position: relative;
@@ -251,6 +362,7 @@ color: black;
 	top: 60px;
 	margin-left: 22%;
 	font-size: 25px;
+	font-family: "Segoe UI"
 }
 .pS{
 	margin-top:  70px;
@@ -259,17 +371,19 @@ color: black;
 	margin-left: 20px;
 	color: white;
 	font-size: 20px;
+	font-family: "Segoe UI"
 }
 .rodape{
 	position: relative;
 	height: 70px;
 	background: red;
-	top: 253px;
+	top: 261px;
+	border: 5px solid red;
 }
 .p-rod{
 	
 	position: relative;
-	top: 40%;
+	top: 19%;
 	left: 44%;
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
@@ -285,11 +399,11 @@ color: black;
 	background: white;
 	border: none;
 	border-radius: 100px;
-	
+	bottom: 6px;
 }
 .ins{
 	left: 100px;
-	bottom: 36px;
+	bottom: 43px;
 	background-color:white;
 	border-radius: 100px;
 	
@@ -297,7 +411,7 @@ color: black;
 .you{
 
 	left: 160px;
-	bottom: 72px;
+	bottom: 80px;
 	background-color: white;
 	border-radius: 50%;
 }

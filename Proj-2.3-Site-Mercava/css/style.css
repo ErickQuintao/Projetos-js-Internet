@@ -30,6 +30,60 @@ body{
 	background: red;
 	bottom:150%;
 }
+#pd{
+	position: relative;
+	top: 12px;
+	color: white;
+	margin-left: 20px;
+	font-weight: 700;
+}
+.icon-fac{
+	position: absolute;
+	width: 27px;
+	height: 27px;
+	left: 89% ;
+	bottom: 2px;
+	border: white 2px solid;
+	border-radius: 15px;
+	background: white;
+}
+.icon-fac:hover{
+	background: blue;
+	width: 28px;
+	height: 28px;
+}
+.icon-you{
+	position: absolute;
+	width: 27px;
+	height: 27px;
+	left: 92% ;
+	bottom: 2px;
+	border: white 2px solid;
+	border-radius: 15px;
+	background: white;
+}
+.icon-you:hover{
+ background: red;
+ width: 28px;
+ height: 28px;
+}
+.icon-ins{
+	position: absolute;
+	width: 27px;
+	height: 27px;
+	left: 95% ;
+	bottom: 2px;
+	border: white 2px solid;
+	border-radius: 15px;
+	background: white;
+}
+.icon-ins:hover{
+  background: blue;
+  width: 28px;
+  height: 28px;
+ 
+
+}
 /* header */
 #header{
 	margin-top: -1px;
@@ -534,9 +588,7 @@ flex-direction: row;
 	background: black;
 	
 }
-.of-btn {
-	top: 0;
-}
+
 .imgs-fim{
 	width: 60px;
 	height: 60px;
@@ -550,28 +602,77 @@ flex-direction: row;
 	width: 300px;
 	height: 100px;
 	left: 55%;
-	bottom: 450px;
+	bottom: 440px;
 }
 .fim-two{
 	position: relative;
 	width: 300px;
 	height: 100px;
 	left: 55%;
-	bottom: 450px;
+	bottom: 420px;
 }
 .fim-three{
 	position: relative;
 	width: 300px;
 	height: 100px;
 	left: 55%;
-	bottom: 420px;
+	bottom: 400px;
 }
 .fim-four{
 	position: relative;
 	width: 300px;
 	height: 100px;
 	left: 55%;
-	bottom: 420px;
+	bottom: 380px;
+}
+.gvtnine{
+	position: absolute;
+	left: 90px;
+	color: white;
+	font-family: "Segoe UI";
+	font-weight: 700;
+}
+.gvtnine:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+.gvtseven{
+	position: absolute;
+	left: 90px;
+	color: white;
+	font-family: "Segoe UI";
+	font-weight: 700;
+}
+.gvtseven:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+.gvtthree{
+  position: absolute;
+	left: 90px;
+	color: white;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	
+}
+.gvtthree:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+.of-btn {
+	position: absolute;
+	left: 90px;
+	color: white;
+	font-family: "Segoe UI";
+	font-weight: 700;
+}
+.of-btn:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
 }
 .titleS2{
 	position: relative;
@@ -579,7 +680,7 @@ flex-direction: row;
 	color: white;
 	font: 20px;
 	left: 67%;
-	bottom:  467px;
+	bottom:  470px;
 	font-size: 25px;
 	
 }

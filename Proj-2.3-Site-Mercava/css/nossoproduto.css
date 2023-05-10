@@ -4,6 +4,7 @@ body{
 	overflow-X: hidden;
    
 }
+/* header */
 .header-princip{
 	width: 100%;
 	position: absolute;
@@ -17,7 +18,62 @@ body{
 	background: red;
 	bottom:72%;
 }
-/* header */
+#pd{
+	position: relative;
+	bottom:8px;
+	color: white;
+	margin-left: 20px;
+	font-weight: 700;
+	font-family: "Segoe UI";
+}
+.icon-fac{
+	position: absolute;
+	width: 27px;
+	height: 27px;
+	left: 89% ;
+	bottom: 34px;
+	border: white 2px solid;
+	border-radius: 15px;
+	background: white;
+}
+.icon-fac:hover{
+	background: blue;
+	width: 28px;
+	height: 28px;
+}
+.icon-you{
+	position: absolute;
+	width: 27px;
+	height: 27px;
+	left: 92% ;
+	bottom: 34px;
+	border: white 2px solid;
+	border-radius: 15px;
+	background: white;
+}
+.icon-you:hover{
+ background: red;
+ width: 28px;
+ height: 28px;
+}
+.icon-ins{
+	position: absolute;
+	width: 27px;
+	height: 27px;
+	left: 95% ;
+	bottom: 35px;
+	border: white 2px solid;
+	border-radius: 15px;
+	background: white;
+}
+.icon-ins:hover{
+  background: blue;
+  width: 28px;
+  height: 28px;
+ 
+
+}
+
 #header{
 
     position: relative;
@@ -49,6 +105,7 @@ body{
 	font-size: 15px;
 	top: 7px;
 	color: gray;
+	font-family: "Segoe UI"
 }
 #HprodF:hover{
     color: black;
@@ -60,6 +117,7 @@ body{
 	font-size: 15px;
 	top: 7px;
 	color: black;
+	font-family: "Segoe UI"
 }
 #Home{
 	position: relative;
@@ -68,6 +126,7 @@ body{
 	font-size: 15px;
 	top: 7px;
 	color: gray;
+	font-family: "Segoe UI"
 }
 #Home:hover{
 color: black;
