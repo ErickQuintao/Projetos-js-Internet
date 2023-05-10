@@ -203,12 +203,14 @@ color: black;
 	height: 400px;
 	width: 40%;
 	position: absolute;
+	top: 40%;
+	
 }
 .h2-cat{
 	position: relative;
 	color: black;
 	left: 5%;
-	top: 300px;
+	top: 50px;
 	font-weight: 700;
 	font-size: 20px;
 	font-family: "Segoe UI";
@@ -221,7 +223,7 @@ color: black;
 	left: 30px;
 	width: 230px;
 	margin-top: 10px;
-	top: 320px;
+	top: 70px;
 	text-decoration: none;
 	color: orangered;
 	font-size: 20px;
@@ -239,7 +241,7 @@ color: black;
     width: 40%;
     height: 2px;
     background-color: lightgray;
-    top: 400px;
+    top: 150px;
     left: 6%;
 
 	margin-top: 10px;
@@ -249,7 +251,7 @@ color: black;
     width: 40%;
     height: 2px;
     background-color: lightgray;
-    top: 437px;
+    top: 187px;
     left: 6%;
 
 	margin-top: 10px;
@@ -259,7 +261,7 @@ color: black;
     width: 40%;
     height: 2px;
     background-color: lightgray;
-    top: 474px;
+    top: 224px;
     left: 6%;
 
 	margin-top: 10px;
@@ -269,7 +271,7 @@ color: black;
     width: 40%;
     height: 2px;
     background-color: lightgray;
-    top: 511px;
+    top: 261px;
     left: 6%;
 
 	margin-top: 10px;
@@ -314,17 +316,21 @@ h3{
 	margin-left: 70px;
 	font-family: "Segoe UI";
 	font-weight: 700;
+	color: gray;
 }
 .img{
 	 margin-right: 20px;	
 }
 .a{
+	margin-right: 30px;
+	margin-left: 18px;
+	margin-bottom: 10px;
 	text-decoration: none;
 	 color: orangered;
-	 margin-left: 10px;
+	 
 	 font-family: "Segoe UI";
 	 font-weight: 700;
-	 width: 50px;
+	 
 }
 .a:hover{
 	color: red;
