@@ -430,3 +430,14 @@ color: black;
 	width: 40px;
 	height: 40px;
 }
+#result{
+	font-size: 40PX;
+	width: 70%;
+	height: 55px;
+	margin-left: 120px;
+	padding-left: 110px;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	background: whitesmoke;
+	box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.3);
+}

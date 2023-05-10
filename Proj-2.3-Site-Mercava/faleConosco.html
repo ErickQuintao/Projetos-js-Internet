@@ -32,12 +32,14 @@
         <div class="linha2"></div>
         
         <input class="ipt-nome" type="text" placeholder="Seu Nome">
-        <input class="ipt-email" type="text" placeholder="Seu Email">
+        <input class="ipt-email" type="email" placeholder="Seu Email">
         <textarea name="" id="txt-area" cols="167" rows="10"></textarea>
-        <button class="btn-more-products btn-enviar">ENVIAR</button>
+        <button  onclick="validarFormulario()"class="btn-more-products btn-enviar">ENVIAR</button>
     </div>
 
-    <div class="erro"></div>
+    <div class="erro">
+        <p id="result"></p>
+    </div>
 
     <div class="sobrenos">
         <h2 class="titleS1 titleS">SOBRE NÓS</h2>
