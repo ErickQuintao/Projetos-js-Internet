@@ -301,6 +301,7 @@ color: black;
 	display: flex;
 	flex-direction: row;
 	margin-left: 80px;
+	
 }
 .four{
 	display: flex;
@@ -322,17 +323,248 @@ h3{
 	 margin-right: 20px;	
 }
 .a{
-	margin-right: 30px;
-	margin-left: 18px;
+	
 	margin-bottom: 10px;
 	text-decoration: none;
 	 color: orangered;
-	 
 	 font-family: "Segoe UI";
 	 font-weight: 700;
 	 
 }
 .a:hover{
 	color: red;
+	
+}
+.a41{
+	margin-left:71px;
+}
+#h40{
+	position: relative;
+	right: 45px;
+}
+.img2:hover{
+	background-image: url("./")
+}
+.img3:hover{
+	background-image: url("./")
+}
+.img4:hover{
+	background-image: url("./")
+}
+.img5:hover{
+	background-image: url("./")
+}
+.img6:hover{
+	background-image: url("./")
+}
+.img7:hover{
+	background-image: url("./")
+}
+.img8:hover{
+	background-image: url("./")
+}
+.img9:hover{
+	background-image: url("fotos\capcs.jpeg");
+}
+.img10:hover{
+	background-image: url("");
+}
+.img11:hover{
+	background-image: url("./")
+}
+
+.sobrenos{
+	display: flex;
+	flex-direction: column;
+	background: black;
+	height: 480px;
+	position: relative;
+	top: 1700px;
+}
+.titleS{
+	color: white;
+}
+.btn-fim{
+	position: relative;
+	left: 80px;
+	bottom: 60px;
 	font-size: 20px;
+	color: white;
+	border: none;
+	background: black;
+	
+}
+
+.imgs-fim{
+	width: 60px;
+	height: 60px;
+}
+.icons-fim{
+	width: 20px;
+	height: 20px;
+}
+.fim-one{
+	position: relative;
+	width: 300px;
+	height: 100px;
+	left: 55%;
+	bottom: 440px;
+}
+.fim-two{
+	position: relative;
+	width: 300px;
+	height: 100px;
+	left: 55%;
+	bottom: 420px;
+}
+.fim-three{
+	position: relative;
+	width: 300px;
+	height: 100px;
+	left: 55%;
+	bottom: 400px;
+}
+.fim-four{
+	position: relative;
+	width: 300px;
+	height: 100px;
+	left: 55%;
+	bottom: 380px;
+}
+.gvtnine{
+	position: absolute;
+	left: 90px;
+	color: white;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	text-decoration: none;
+}
+.gvtnine:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+.gvtseven{
+	position: absolute;
+	left: 90px;
+	color: white;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	text-decoration: none;
+}
+.gvtseven:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+.gvtthree{
+  position: absolute;
+	left: 90px;
+	color: white;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	text-decoration: none;
+}
+.gvtthree:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+	
+}
+.of-btn {
+	position: absolute;
+	left: 90px;
+	color: white;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	text-decoration: none;
+}
+.of-btn:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+.titleS2{
+	position: relative;
+	height: 50px;
+	color: white;
+	font: 20px;
+	left: 60%;
+	bottom:  440px;
+	font-size: 25px;
+	
+}
+.titleS1{
+	position: relative;
+	height: 50px;
+	color: white;
+	font: 20px;
+	top: 35px;
+	margin-left: 22%;
+	font-size: 25px;
+}
+.pS{
+	margin-top:  70px;
+	position: relative;
+	width: 50%;
+	margin-left: 20px;
+	color: white;
+	font-size: 20px;
+}
+.rodape{
+	position: relative;
+	height: 70px;
+	background: red;
+	top: 1640px;
+}
+.p-rod{
+	
+	position: relative;
+	top: 40%;
+	left: 44%;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+.icon-fim{
+	position: relative;
+	max-width: 32px;
+	max-height: 32px;
+}
+.fac{
+	left: 40px;
+	background: white;
+	border: none;
+	border-radius: 100px;
+	
+}
+.ins{
+	left: 100px;
+	bottom: 35px;
+	background-color:white;
+	border-radius: 100px;
+	
+}
+.you{
+
+	left: 160px;
+	bottom: 71px;
+	background-color: white;
+	border-radius: 50%;
+	
+}
+.fac:hover{
+	background-color: blue;
+	
+}
+.ins:hover{
+	background-color: blue;
+}
+.you:hover{
+	background-color: red;
+}
+.iconS{
+	position: relative;
+	width: 40px;
+	height: 40px;
 }
