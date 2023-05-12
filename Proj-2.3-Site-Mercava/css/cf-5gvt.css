@@ -651,3 +651,19 @@ height: 30PX  !important;
 	width: 40px;
 	height: 40px;
 }
+.sobrenos div img{
+	width: 50px;
+	height: 50PX;
+	margin-top: 20px;
+}
+.sobrenos div{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	left: 800px;
+	bottom: 430px;
+}
+.sobrenos div a{
+	position: relative;
+	top: 30px;
+}
