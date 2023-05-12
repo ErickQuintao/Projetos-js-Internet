@@ -232,7 +232,7 @@ label{
 }
 select{
     position: relative;
-    left: 880px;
+    left: 870px;
     top: 70px;
     width: 330px;
     height: 40px;
@@ -240,21 +240,413 @@ select{
     font-size: 20px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
+.whatsapp{
+	position: relative;
+	height: 70px;
+	width: 250px;
+	left: 870px;
+	top:110px;
+	border-radius: 10px;
+	background-color: gray;
+	box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.3);
+}
+.whatsapp:hover{
+	
+	background-color: orangered;
+	bottom: 10px;
+}
+.p-what{
+	position: relative;
+ bottom: 60px;
+ left: 60px;
+ color: white;
+ font-family: "Segoe UI";
+}
 .what{
-    position: relative;
-    left: 420px;
-    top: 170px;
-   
-    height: 100px;
-    border-radius: 10px;
+    
     text-decoration: none;
     color: gray;
     font-size: 25px;
     font-family: "Segoe UI";
-    border: 2px solid black;
 }
 .what img{
-    width: 50px;
-    height: 50px;
+	position: relative;
+	top: 12px;
+	left: 7px;
+    width: 45px;
+    height: 45px;
+	
+}
+.descricao{
+	position: relative;
+	height: 500px;
+	width: 100%;
+	border: 1px solid black;
+	top: 270px;
+}
+.linha1{
+	position: relative;
+	width: 100% !important;
+	height: 1px;
+	
+	background-color: gray;
+}
+.produto-infor{
+	position: relative;
+	height: 500px;
+	width: 100%;
+	top: 270px;
+}
+.infad{
+	position: relative;
+	left: 140px;
+	bottom: 32px;
+	text-decoration: none;
+	color: GRAY;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	border: none;
+	background: white;
+}
+.des{
+	position: relative;
+	left: 20px;
+	top: -12px;
+	text-decoration: none;
+	color: gray;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	border: none;
+	background: white;
+}
+.linha2{
+	display: none;
+	position: relative;
+	width: 90px;
+	background-color: orangered;
+	height: 3px;
+	left: 20px;
+	bottom: 16px;
+}
+.linha3{
+	display: none;
+	position: relative;
+	width: 205px;
+	background-color: orangered;
+	height: 3px;
+	left: 140px;
+	bottom: 35PX;
+}
+.pri1{
+display: block;
+}
+.pri1:hover .linha2{
+  display: block;
+  
+}
+.pri1:hover .des{
+	color: black;
+}
+.pri2:hover .linha3{
+	display: block;
+	
+}
+.pri2:hover .infad{
+	color: black;
+}
+.descricao1{
+	
+	margin-left: 40px;
+	font-size: 20px;
+	font-family: "Segoe UI";
+	
+}
+.informacao{
+	display: none;
+	margin-left: 40px;
+	font-size: 20px;
+	font-family: "Segoe UI";
+}
+li {
+	list-style: none;
+  }
+  .linha4{
+	position: relative;
+	width: 97%;
+	background-color: whitesmoke;
+	height: 2px;
+	bottom: 17PX;
+}
+.linha5{
+	position: relative;
+	width: 97%;
+	background-color: whitesmoke;
+	height: 2px;
+	bottom: -27PX;
+}
+.linha6{
+	position: relative;
+	width: 97%;
+	background-color: whitesmoke;
+	height: 2px;
+	bottom: 35PX;
+	
+}
+#compri{
+	position: relative;
+	left: 60px;
+	font-size: 20px;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	top: 35px;
+}
+#cm{
+	position: relative;
+	left: 1000px;
+	font-size: 20px;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	bottom: 13px;
+}
 
+.first{
+	position: relative;
+	top: 300px;
+	display: flex;
+	flex-direction: row;
+	left: 80px;
+}
+.first div{
+	position: relative;
+	right: 60px;
+}
+h3{
+	font-size: 10px;
+	margin-left: 70px;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	color: gray;
+}
+.img{
+	margin-right: 20px;	
+	width: 310px;
+	height: 350px;
+}
+.a{
+   
+   margin-bottom: 10px;
+   text-decoration: none;
+	color: orangered;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	
+}
+.a:hover{
+   color: red;
+   
+}
+#h1{
+	position: relative;
+width: 700PX;
+height: 30PX  !important;
+	left: 30px;
+	bottom: -270px;
+	font-size: 20px;
+	font-family: "Segoe UI";
+	font-weight: 700;
+}
+.sobrenos{
+	display: flex;
+	flex-direction: column;
+	background: black;
+	height: 480px;
+	position: relative;
+	top: 370px;
+}
+.titleS{
+	color: white;
+}
+.btn-fim{
+	position: relative;
+	left: 80px;
+	bottom: 60px;
+	font-size: 20px;
+	color: white;
+	border: none;
+	background: black;
+	
+}
+
+.imgs-fim{
+	width: 60px;
+	height: 60px;
+}
+.icons-fim{
+	width: 20px;
+	height: 20px;
+}
+.fim-one{
+	position: relative;
+	width: 300px;
+	height: 100px;
+	left: 55%;
+	bottom: 440px;
+}
+.fim-two{
+	position: relative;
+	width: 300px;
+	height: 100px;
+	left: 55%;
+	bottom: 420px;
+}
+.fim-three{
+	position: relative;
+	width: 300px;
+	height: 100px;
+	left: 55%;
+	bottom: 400px;
+}
+.fim-four{
+	position: relative;
+	width: 300px;
+	height: 100px;
+	left: 55%;
+	bottom: 380px;
+}
+.gvtnine{
+	position: absolute;
+	left: 90px;
+	color: white;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	text-decoration: none;
+}
+.gvtnine:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+.gvtseven{
+	position: absolute;
+	left: 90px;
+	color: white;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	text-decoration: none;
+}
+.gvtseven:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+.gvtthree{
+  position: absolute;
+	left: 90px;
+	color: white;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	text-decoration: none;
+}
+.gvtthree:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+	
+}
+.of-btn {
+	position: absolute;
+	left: 90px;
+	color: white;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	text-decoration: none;
+}
+.of-btn:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+.titleS2{
+	position: relative;
+	height: 50px;
+	color: white;
+	font: 20px;
+	left: 60%;
+	bottom:  440px;
+	font-size: 25px;
+	
+}
+.titleS1{
+	position: relative;
+	height: 50px;
+	color: white;
+	font: 20px;
+	top: 35px;
+	margin-left: 22%;
+	font-size: 25px;
+}
+.pS{
+	margin-top:  70px;
+	position: relative;
+	width: 50%;
+	margin-left: 20px;
+	color: white;
+	font-size: 20px;
+}
+.rodape{
+	position: relative;
+	height: 70px;
+	background: red;
+	top: 350px;
+}
+.p-rod{
+	
+	position: relative;
+	top: 40%;
+	left: 44%;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+.icon-fim{
+	position: relative;
+	max-width: 32px;
+	max-height: 32px;
+}
+.fac{
+	left: 40px;
+	background: white;
+	border: none;
+	border-radius: 100px;
+	
+}
+.ins{
+	left: 100px;
+	bottom: 35px;
+	background-color:white;
+	border-radius: 100px;
+	
+}
+.you{
+
+	left: 160px;
+	bottom: 71px;
+	background-color: white;
+	border-radius: 50%;
+	
+}
+.fac:hover{
+	background-color: blue;
+	
+}
+.ins:hover{
+	background-color: blue;
+}
+.you:hover{
+	background-color: red;
+}
+.iconS{
+	position: relative;
+	width: 40px;
+	height: 40px;
 }
