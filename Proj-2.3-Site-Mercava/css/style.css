@@ -85,6 +85,7 @@ body{
 
 }
 /* header */
+
 #header{
 	margin-top: -1px;
 
@@ -155,6 +156,79 @@ body{
     
 }
 
+.pesq{
+	display: none;
+	position: relative;
+	left: 980px;
+	width: 350px;
+	top: 30px;
+	height: 70px;
+	background: white;
+	box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.3);
+}
+.img-pesq{
+	width: 30px;
+	height: 32px;
+}
+.img-pes:active{
+	border: none;
+}
+.btn-pesq{
+	position: relative;
+	top: 13px;
+	left: 11px;
+	border: 3px solid black;
+	background: whitesmoke;
+	
+}
+.btn-pesq:active{
+	border: none;
+}
+.ipt-pesq{
+	position: relative;
+	width: 270px;
+	left: 15px;
+	height: 40px;
+	top: 15px;
+	border: 1px solid gray;
+}
+
+	
+
+.ipt-pesq:active{
+border: none;
+}
+.c{
+	display: none;
+ height: 50px;
+ position: relative;
+	left: 980px;
+	width: 350px;
+	top: 30px;
+	background: white;
+}
+.miniproduto img{
+	position: relative;
+	width: 50px;
+	height: 50px;
+	border-radius: 30px;
+	left: 30px;
+}
+.miniproduto a{
+	position: relative;
+	left: 40px;
+	color: black;
+	font-family: "Segoe UI";
+	
+}
+.miniproduto .c .b strong {
+	font-weight: bold;
+  }
+.miniproduto a:hover{
+  text-decoration: none;
+  color: black;
+  
+}
  /* Produtos */
  .product {
 	bottom: 70px;

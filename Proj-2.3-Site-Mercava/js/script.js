@@ -35,5 +35,3 @@ productContainers.forEach((item, i) => {
 
 
 
-
-

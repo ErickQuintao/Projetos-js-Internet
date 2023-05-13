@@ -151,6 +151,11 @@ color: black;
 	background: red;
 	top: 160px;
 }
+.resultados{
+	width: 200px;
+	height: 50px;
+	border: 1 px solid black;
+}
 .woocommerce-ordering{
 	position: absolute;
 	left: 80%;
