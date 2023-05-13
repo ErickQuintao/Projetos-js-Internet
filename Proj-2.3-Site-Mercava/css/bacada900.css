@@ -161,6 +161,7 @@ color: black;
 	width: 30px;
 	height: 32px;
     position: relative;
+    
 }
 .img-pes:active{
 	border: none;
@@ -184,7 +185,7 @@ color: black;
 	width: 270px;
 	left: 15px;
 	height: 40px;
-
+	
 	border: 1px solid gray;
 }
 .miniproduto{
@@ -291,20 +292,23 @@ border: none;
 }
 .imgp{
     position: relative;
-    margin-left: 10px;
+    margin-left: 20px;
     width: 60%;
-    top: 280px;
+    top: 300px;
     height: 600px;
 }
 
 .prod-h1{
     position: relative;
     left: 840px;
-    bottom: 360px;
+    bottom: 300px;
     font-weight: 700;
 	font-size: 35px;
 	font-family: "Segoe UI";
     color: rgb(131, 128, 128);
+}
+#txt-cf5{
+top: 420px;
 }
 #txt-cf5{
     position: absolute;
@@ -335,7 +339,7 @@ select{
 	height: 70px;
 	width: 250px;
 	left: 870px;
-	top:110px;
+	top:-300px;
 	border-radius: 10px;
 	background-color: gray;
 	box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.3);
@@ -403,14 +407,14 @@ select{
 	left: 20px;
 	top: -12px;
 	text-decoration: none;
-	color: gray;
+	color: black;
 	font-family: "Segoe UI";
 	font-weight: 700;
 	border: none;
 	background: white;
 }
 .linha2{
-	display: none;
+	
 	position: relative;
 	width: 90px;
 	background-color: orangered;
@@ -418,15 +422,7 @@ select{
 	left: 20px;
 	bottom: 16px;
 }
-.linha3{
-	display: none;
-	position: relative;
-	width: 205px;
-	background-color: orangered;
-	height: 3px;
-	left: 140px;
-	bottom: 35PX;
-}
+
 .pri1{
 display: block;
 }

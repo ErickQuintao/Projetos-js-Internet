@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	width: 100%;
 	overflow-X: hidden;
-   
+   cursor: pointer;
 }
 /* header */
 .header-princip{
@@ -144,30 +144,101 @@ color: black;
 	transition: all 0.3s;
     
 }
+
+.pesq{
+    z-index: 9999;
+	display: none;
+	position:relative;
+	left: 980px;
+	width: 350px;
+	top: 30px;
+	height: 70px;
+	background: white;
+	box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.3);
+}
+.img-pesq{
+	width: 30px;
+	height: 32px;
+    position: relative;
+}
+.img-pes:active{
+	border: none;
+}
+.btn-pesq{
+	width: 45px;
+	height: 44px;
+	position: relative;
+	top: 10px;
+	left: 11px;
+	border: 3px solid black;
+	background: whitesmoke;
+	
+}
+.btn-pesq:active{
+	border: none;
+}
+.ipt-pesq{
+    
+	position: relative;
+	width: 270px;
+	left: 15px;
+	height: 40px;
+
+	border: 1px solid gray;
+}
+.miniproduto{
+    z-index: 9998;
+    position: relative;
+    top: 10px !important;
+}
+	
+
+.ipt-pesq:active{
+border: none;
+}
+.c{
+	display: none;
+ height: 50px;
+ position: relative;
+	left: 980px;
+	width: 350px;
+	top: 30px;
+	background: white;
+}
+.miniproduto img{
+	position: relative;
+	width: 50px;
+	height: 50px;
+	border-radius: 30px;
+	left: 30px;
+}
+.miniproduto a{
+	position: relative;
+	left: 40px;
+	color: black;
+	font-family: "Segoe UI";
+	
+}
+.miniproduto .c .b strong {
+	font-weight: bold;
+  }
+.miniproduto a:hover{
+  text-decoration: none;
+  color: black;
+  
+}
+#barra1{
+    position: relative !important;
+    bottom: 75px !important;
+}
+
 .catalogo{
-	position: absolute;
+    z-index: 1;
+	position: relative;
 	width: 100%;
 	height: 100px;
 	background: red;
 	top: 160px;
-}
-.resultados{
-	width: 200px;
-	height: 50px;
-	border: 1 px solid black;
-}
-.woocommerce-ordering{
-	position: absolute;
-	left: 80%;
-	top: 30%;
-	
-}
-.orderby{
-  height: 40px;
-  border-radius: 20px;
-  background: red;
-  color: white;
-  border: 2px solid white;
 }
 .cat-ini{
 	position: relative;
@@ -180,16 +251,27 @@ color: black;
 	text-decoration: none;
 }
 .cat-cat{
-	position: absolute;
+	position: relative;
 	color: white;
 	margin-left: 80px;
-	top: 35px;
+	top: -40px;
 	left: 60px;
 	font-weight: 700;
 	font-size: 20px;
 	font-family: "Segoe UI";
 	text-decoration: none;
 	
+}
+.cat-cf{
+    position: absolute;
+	color: white;
+	margin-left: 80px;
+	top: 35px;
+	left: 200px;
+	font-weight: 700;
+	font-size: 20px;
+	font-family: "Segoe UI";
+	text-decoration: none;
 }
 #barra{
 	position: relative;
@@ -313,6 +395,9 @@ color: black;
 	flex-direction: row;
 	margin-left: 80px;
 }
+	
+
+
 .order img{
 	width: 250px;
 	height: 270px;
@@ -573,3 +658,28 @@ h3{
 	width: 40px;
 	height: 40px;
 }
+
+
+.two-col  .cf9gvt{
+	position: relative;
+	left: 540px;
+	bottom: 329px;
+	}
+	
+	.two-col .cfs3gvt{
+		position: relative;
+		left: -270px;
+		flex-direction: none;
+	}
+	.three-col .ca1gvt{
+		position: relative;
+		left: 300px;
+		flex-direction: none;
+		bottom: 350px;
+	}
+	.three-col .ca3gvt{
+		position: absolute;
+		left: 680px;
+		flex-direction: none;
+		bottom: 350px;
+	}

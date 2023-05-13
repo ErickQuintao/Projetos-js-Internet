@@ -3,7 +3,8 @@ body{
 	width: 100%;
     height: 100%;
 	overflow-X: hidden;
-   
+	overflow-y: scroll black;
+	cursor: pointer;
 }
 /* header */
 .header-princip{
@@ -145,8 +146,96 @@ color: black;
 	transition: all 0.3s;
     
 }
+.pesq{
+    z-index: 9999;
+	display: none;
+	position:relative;
+	left: 980px;
+	width: 350px;
+	top: 30px;
+	height: 70px;
+	background: white;
+	box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.3);
+}
+.img-pesq{
+	width: 30px;
+	height: 32px;
+    position: relative;
+}
+.img-pes:active{
+	border: none;
+}
+.btn-pesq{
+	width: 45px;
+	height: 44px;
+	position: relative;
+	top: 10px;
+	left: 11px;
+	border: 3px solid black;
+	background: whitesmoke;
+	
+}
+.btn-pesq:active{
+	border: none;
+}
+.ipt-pesq{
+    
+	position: relative;
+	width: 270px;
+	left: 15px;
+	height: 40px;
+
+	border: 1px solid gray;
+}
+.miniproduto{
+    z-index: 9998;
+    position: relative;
+    top: 10px !important;
+}
+	
+
+.ipt-pesq:active{
+border: none;
+}
+.c{
+	display: none;
+ height: 50px;
+ position: relative;
+	left: 980px;
+	width: 350px;
+	top: 30px;
+	background: white;
+}
+.miniproduto img{
+	position: relative;
+	width: 50px;
+	height: 50px;
+	border-radius: 30px;
+	left: 30px;
+}
+.miniproduto a{
+	position: relative;
+	left: 40px;
+	color: black;
+	font-family: "Segoe UI";
+	
+}
+.miniproduto .c .b strong {
+	font-weight: bold;
+  }
+.miniproduto a:hover{
+  text-decoration: none;
+  color: black;
+  
+}
+#barra1{
+    position: relative !important;
+    bottom: 75px !important;
+}
+
 .catalogo{
-	position: absolute;
+    z-index: 1;
+	position: relative;
 	width: 100%;
 	height: 100px;
 	background: red;
@@ -163,10 +252,10 @@ color: black;
 	text-decoration: none;
 }
 .cat-cat{
-	position: absolute;
+	position: relative;
 	color: white;
 	margin-left: 80px;
-	top: 35px;
+	top: -40px;
 	left: 60px;
 	font-weight: 700;
 	font-size: 20px;
@@ -202,16 +291,16 @@ color: black;
 }
 .imgp{
     position: relative;
-    margin-left: 20px;
+    margin-left: 10px;
     width: 60%;
-    top: 300px;
+    top: 230px;
     height: 600px;
 }
 
 .prod-h1{
     position: relative;
     left: 840px;
-    bottom: 300px;
+    bottom: 410px;
     font-weight: 700;
 	font-size: 35px;
 	font-family: "Segoe UI";

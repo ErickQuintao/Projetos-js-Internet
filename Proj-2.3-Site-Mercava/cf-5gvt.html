@@ -22,7 +22,69 @@
          <a style="text-decoration: none;" id="Home"href="./index.html">HOME</a>
         <a style="text-decoration: none;"  href="./nossosProdutos.html" id="Hprod">NOSSOS PRODUTOS</a >
         <a style="text-decoration: none;" href="./" id="HprodF">FALE CONOSCO</a >
-        <a style="text-decoration: none;"  id="Hpes"><img src="./fotos/pesquisa.png"></a>
+            <a style="text-decoration: none;" href="./" id="Hpes">
+                <img class="img-pesq4" src="./fotos/pesquisa.png" onmouseover="exibirPesq()">
+            </a>
+            <div class="pesq" onmouseover="exibirPesq()" onmouseout="ocultarPesq()">
+                <input placeholder="PESQUISAR"  autocomplete="off" type="text" class="ipt-pesq" id="filtro" oninput="filtrarItens()">
+                <button class="btn-pesq"><img class="img-pesq" src="./fotos/pesquisa.png"></button>
+            </div>
+            <div class="miniproduto">
+                <div class="c">
+                    <img class="img img1" src="./fotos/Bancada-900mm-4gvt.png">
+                    <a style="text-decoration: none;" class="b" href="./bacada900.html">Bancada 900mm 4 Gavetas</a>
+                    </div>
+                    <div class="c">
+                    <img class="img img2" src="./fotos/cf-5gvt.jpeg">
+                    
+                    <a style="text-decoration: none;" class="b" href="./cf-5gvt.html">Caixa de Ferramentas 5 GVT</a>
+                    </div>
+                    <div class="c">
+                    <img class="img img3" src="./fotos/cf-7gvt.jpeg">
+                    
+                    <a style="text-decoration: none;" class="b" href="./cf-7gvt.html">Caixa de Ferramentas 7 GVT</a>
+                    </div>
+                <div class="c">
+                    <img class="img img4" src="./fotos/cf-9gvt.jpg">
+                    
+                    <a style="text-decoration: none;" class="b" href="./cf-9gvt.html">Caixa de Ferramentas 9 GVT </a>
+                    </div>
+                    <div class="c">
+                    <img class="img img5" src="./fotos\Bancada-900mm-4gvt.png">
+                    
+                    <a style="text-decoration: none;" class="b a30" href="./cfs-3.html">Caixa de Ferramentas Sanfonada <br> 3 Gavetas</a>
+                    </div>
+                    <div class="c">
+                    <img class="img img6" src="./fotos/carf-3gvt.jpg">
+                   
+                    <a style="text-decoration: none;" class="b a31" href="./carf-3gvt.html">Carrinho 3 Gavetas Fechado <br> com Suporte para Morsa</a>
+                    </div>
+                <div class="c">
+                    <img class="img img7" src="./fotos/CAA-1gvt.jpeg">
+                   
+                    <a style="text-decoration: none;" class="b a31" href="./caa-1gvt.html">Carrinho Auxiliar aberto  –<br> 1 Gaveta</a>
+                    </div>
+                    <div class="c">
+                    <img  class="img img8"src="./fotos\ca-3gvts.jpeg">
+                   
+                    <a style="text-decoration: none;" class="b a32" href="./caa-3gvt.html">Carrinho Auxiliar aberto  – <br>3 Gavetas</a>
+                    </div>
+                    <div class="c">
+                    <img class="img9 img" src="./fotos\capcs(2).jpeg" >
+                    
+                    <a style="text-decoration: none;" class="b a33"  href="./capcs.html">Carrinho Auxiliar para <br> Caixa Sanfonada</a>
+                    </div>
+                <div class="c">
+                    <img  class="img img10"src="./fotos\m-3gvt.jpeg">
+                    
+                    <a style="text-decoration: none;" class="b" href="./md-3gvt.html">Mesa Diagnóstico 3 Gavetas</a>
+                    </div>
+                    <div class="c">
+                        <img  class="img img11"src="./fotos\OfM.jpeg">
+                        
+                        <a style="text-decoration: none;" class="b a41" href="./of.html">Oficina Móvel</a>
+                   </div>
+        </div>
     </header>
     </div>
     <div class="catalogo">
@@ -30,7 +92,7 @@
         <p id="barra">/</p>
         <a href="./nossosProdutos.html"class="cat-cat" >CATÁLOGO</a>
         <p id="barra1">/</p>
-        <a href="./" class="cat-cf">CAIXA SANFONADA</a>
+        <a  class="cat-cf">CAIXA SANFONADA</a>
         </div>
 
         <div class="produto-principal">
@@ -163,5 +225,6 @@ Disponível nas cores preto laranja cinza azul amarelo vermelho verde<br><br><br
             </p>
         </div>
 <script src="./js/cf5gvt.js"></script>
+<script src="./js/pesquisa.js"></script>
 </body>
 </html>

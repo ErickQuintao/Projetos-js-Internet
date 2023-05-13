@@ -1,26 +1,28 @@
 function exibirPesq() {
-    let pesq = document.querySelector('.pesq');
-    pesq.style.display = 'block';
+  let pesq = document.querySelector('.pesq');
+  pesq.style.display = "block";
+  clearTimeout(pesq.timeoutID);
 }
 
 function ocultarPesq() {
-    let pesq = document.querySelector('.pesq');
-    pesq.style.display = 'none';
+  let pesq = document.querySelector('.pesq');
+  pesq.timeoutID = setTimeout(function() {
+    pesq.style.display = "none";
+  }, 0);
 }
+
 function filtrarItens() {
-  var input = document.getElementById("filtro").value.toLowerCase().trim();
-  var itens = document.getElementsByClassName("c");
+ let input = document.getElementById("filtro").value.toLowerCase().trim();
+ let itens = document.getElementsByClassName("c");
 
   for (var i = 0; i < itens.length; i++) {
-    var item = itens[i];
-    var nomeElemento = item.querySelector(".b");
-    var nome = nomeElemento.textContent.toLowerCase();
-    var nomeDestacado = '';
+   let item = itens[i];
+   let nomeElemento = item.querySelector(".b");
+   let nome = nomeElemento.textContent.toLowerCase();
+   let nomeDestacado = '';
 
     for (var j = 0; j < nome.length; j++) {
-      var letra = nome[j];
-      // foi adicionada a verificação input === '' para garantir que,
-      // ao digitar um espaço em branco, todos os itens sejam exibidos novamente.
+     let letra = nome[j];
       if (input.includes(letra) || input === '') {
         nomeDestacado += '<strong>' + letra + '</strong>';
       } else {
@@ -35,43 +37,25 @@ function filtrarItens() {
     } else {
       item.style.display = "none";
     }
+
+      // Adiciona o evento de entrada do mouse (mouseenter)
+      item.addEventListener("mouseenter", function() {
+        this.style.display = "block";
+        clearTimeout(this.timeoutID);
+      });
+  
+      // Adiciona o evento de saída do mouse (mouseleave)
+      item.addEventListener("mouseleave", function() {
+        var self = this;
+        this.timeoutID = setTimeout(function() {
+          self.style.display = "none";
+        }, 0);
+      });
+
+
   }
-}
-//e tem que fazer quando mouse sair do efeito hover divs vao desaparecer tambem
+  }
 
-
-window.onload = function() {
-  // Event listener para o botão de pesquisa
-  let btnPesq = document.querySelector('.btn-pesq');
-
-  btnPesq.addEventListener('click', function(event) {
-    event.preventDefault(); // Impede o comportamento padrão do link
-
-    var input = document.getElementById('filtro').value.trim();
-
-    var resultadosDiv = document.createElement('div');
-    resultadosDiv.id = 'resultados';
-    resultadosDiv.innerHTML = '<p>RESULTADOS DA PESQUISA PARA "' + input + '"</p>';
-
-    var orderDiv = document.querySelector('.order');
-    orderDiv.innerHTML = ''; // Limpa os elementos anteriores
-    orderDiv.appendChild(resultadosDiv);
-
-    var elementosA = document.getElementsByClassName('a');
-    for (var i = 0; i < elementosA.length; i++) {
-      var elementoA = elementosA[i];
-      var nome = elementoA.innerHTML.toLowerCase();
-
-      if (nome.includes(input)) {
-        var novoResultado = document.createElement('p');
-        novoResultado.textContent = nome;
-        resultadosDiv.appendChild(novoResultado);
-      }
-    }
-
-    window.location.href = './nossosProdutos.html';
-  });
-};
 
 
 
